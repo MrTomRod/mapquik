@@ -6,7 +6,7 @@
 #![allow(unused_variables)]
 #![allow(non_upper_case_globals)]
 //#![allow(warnings)]
-#![feature(iter_advance_by)]
+
 #[cfg(not(target_env = "msvc"))]
 #[global_allocator]
 static GLOBAL: tikv_jemallocator::Jemalloc = tikv_jemallocator::Jemalloc;

@@ -19,11 +19,8 @@ Pre-requisites: [A working Rust environment](https://rustup.rs/).
 Clone the repository, and run 
 
 ```
-rustup install nightly
-cargo +nightly build --release
+cargo build --release
 ```
-
-The nightly version of `cargo` is required because `mapquik` uses experimental language features (such as SIMD and intrinsics).
 
 ## Quick start
 
